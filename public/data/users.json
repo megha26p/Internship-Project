@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "profilePic": "/pfp.png",
+    "name": "Rahul Kumar",
+    "email": "rahulkumar@gmail.com",
+    "password": "Rahul123",
+    "phone": "9598755687",
+    "address": "Patia,Bhubaneswar",
+    "state": "Odisha",
+    "zipcode": "751024",
+    "role": "user"
+  },
+  {
+    "id": 2,
+    "profilePic": "/pfp.png",
+    "name": "User 1",
+    "email": "user@gmail.com",
+    "password": "password456",
+    "phone": "987-654-3210",
+    "address": "Patia,Bhubaneswar",
+    "state": "Odisha",
+    "zipcode": "751024",
+    "role": "user"
+  },
+  {
+    "id": 3,
+    "profilePic": "/pfp.png",
+    "name": "Admin User",
+    "email": "admin@gmail.com",
+    "password": "admin123",
+    "phone": "555-555-5555",
+    "address": "Bhubaneswar",
+    "state": "Pakistan",
+    "zipcode": "75001",
+    "role": "admin"
+  }
+]

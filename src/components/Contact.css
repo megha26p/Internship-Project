@@ -1,0 +1,124 @@
+/* src/components/Contact.css */
+
+.contact-page {
+  background-color: #fff9f0; /* Page background color */
+  padding: 40px 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align:left;
+}
+
+.contact-heading {
+  font-size: 36px;
+  color: #000000;
+  margin-bottom: 40px;
+  text-align: center;
+}
+h1.contact-heading{
+   text-align: center;
+}
+
+.contact-container {
+  border-radius: 0px; /* Rounded corners for the outer box */
+  padding: 20px;
+  max-width: 1200px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the container */
+  
+}
+
+.contact-box {
+  display: flex;
+  align-items: stretch;
+  /* Ensure both sections stretch to equal height */
+}
+
+.contact-info,
+.contact-form {
+  flex: 1; /* Both sections take equal space */
+  border: 2px solid #71375080; /* Border around each section */
+   /* Rounded corners for the border */
+  padding: 20px;
+  box-sizing: border-box; /* Includes padding in width */
+}
+
+.contact-info {
+  border-right: 2px solid #703e557c; /* Vertical line between sections */
+}
+
+.contact-info h2 {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.social-link {
+  color: #101110;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+.social-link:hover {
+  text-decoration: underline;
+}
+
+.contact-form .form-row {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.contact-form .form-row label {
+  display: block;
+  font-size: 16px;
+  color: #f3e7e7;
+  margin-bottom: 5px;
+}
+
+.contact-form .form-row input,
+.contact-form .form-row textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: #fff;
+  box-sizing: border-box; /* Includes padding in width */
+  background-color: #5f25344f; /* Default background color */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.contact-form .form-row input:focus,
+.contact-form .form-row textarea:focus,
+.contact-form .form-row input:not(:placeholder-shown),
+.contact-form .form-row textarea:not(:placeholder-shown) {
+  background-color: #b48f8f; /* Background color when focused or contains text */
+}
+
+.contact-form .form-row textarea {
+  height: 100px; /* Adjust height as needed */
+  resize: vertical; /* Allows user to resize vertically */
+}
+
+.submit-button {
+  background-color: #b4a38fab;
+  color: #0f0e0e;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: normal;
+  cursor: pointer;
+  width: 150px;
+}
+
+.submit-button:hover {
+  background-color: #45a83e;
+}
